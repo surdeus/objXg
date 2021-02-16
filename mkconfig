@@ -1,0 +1,7 @@
+<$MKINCDIR/config
+OBJNAME = Xg
+INCS = $FTINC -Ishr/inc/Xg
+DEFS = -D_DEFAULT_SOURCE
+ARFLAGS = r
+CFILES = `{ls *.c}
+
